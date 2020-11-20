@@ -27,8 +27,14 @@
 
 }
 
-body {
-background-color: lightgrey;
+.body {
+    background-color:powderblue;
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 10px;
+    border-bottom: 10px;
+
 
 }
 
@@ -53,16 +59,15 @@ background-color: lightgrey;
     width: 40px;
 }
 #c{
-    height: 30px;
+    
     color: rgb(6, 6, 24);
     background-color: rgb(151, 201, 201);
     display: inline;
-    margin-top: 5px;
+    
 }
 #number{
     display: inline;
-    margin-top: 20px;
-    margin-bottom: 5px;
+    
     margin-left: 10px;
     padding-top: 10px;
     font-size: larger;

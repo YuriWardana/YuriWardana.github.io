@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TruthOrDare</title>
 </head>
-<body>
+<body class="body" style="background-color:powderblue;">
   <script src="/index.js" type="text/javascript"></script>
   <nav>FINAL PROJECT</nav>
   <H1>Truth Or Dare Games</H1> 
@@ -25,18 +25,18 @@
       <h3>Selamat Bermain</h3>
       <p>Input jumlah Pemain</p>
       <input type ="text" name="jmlPlayer" id ="jmlPlayer" auto complete ="off" required><br>
-      <button id="c"  padding = 10px onclick="random3();">sekarang giliran player nomer ==></button>
+      <button id="c"  padding = 10px onclick="randomPlayer();">sekarang giliran player nomer ==></button>
       <p id="number" class="number"></p>
     
 
     <p id="randomTruth"></p>
     <p id="hasil" class ="number"></p>
-    <button id="a" class ="button " onclick="random();">TRUTH</button>
+    <button id="a" class ="button " onclick="randomTruth();">TRUTH</button>
 
 
   <p id="randomDare"></p>
   <p id="hasil2" class = "number"></p>
-  <button id="b" class ="button "onclick="random1();">DARE</button>
+  <button id="b" class ="button "onclick="randomDare();">DARE</button>
 
 
 </body>
